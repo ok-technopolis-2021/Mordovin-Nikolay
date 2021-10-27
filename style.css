@@ -1,0 +1,131 @@
+.body {
+font-family: Helvetica, sans-serif;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.main{
+display: flex;
+background-color: #444444;
+justify-content: center;
+width: 1127px;
+height: 595px;
+border-radius: 30px;
+}
+
+.main-left{
+height:100%;
+width:380px;
+display:flex;
+justify-content:space-between;
+flex-direction: column;
+align-items: center;
+}
+
+.main-left-info{
+height:420px;
+display: flex;
+margin-top:70px;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.main-left-info__image {
+width: 180px;
+height: 180px;
+border-radius:50%;
+box-shadow: 12px 12px 0 grey;
+}
+
+.main-left-info__title {
+display:flex;
+flex-direction: column;
+align-items:center;
+}
+
+.main-left-info__title-name{
+color: white;
+font-weight: bold;
+font-style:normal;
+margin-top: 29px;
+text-align:center;
+font-size:38px;
+}
+
+.main-left-info__title-profession{
+color: white;
+font-weight:normal;
+font-style:normal;
+margin-top:8px;
+font-size: 20px;
+}
+
+.main-left-info__icons{
+display:flex;
+width:92px;
+align-items: center;
+justify-content: space-between;
+margin-top: 16px;
+}
+
+.main-left-info__icons-icon{
+width: 24px;
+height: 24px;
+border-radius:50%;
+}
+
+.main-left-info__download{
+display: flex;
+align-items: center;
+justify-content: center;
+border:3px solid white;
+color:white;
+width: 164px;
+height: 39px;
+border-radius:40px;
+font-size: 17px;
+margin-top: 57px;
+text-decoration:none;
+}
+
+.main-left__footer{
+margin-bottom:16px;
+}
+
+.main-right{
+height: 100%;
+width: 747px;
+border-radius: 30px;
+background-color: #222222;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.main-right__title{
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+}
+
+.main-right__title-name{
+color: white;
+font-weight: bold;
+font-style:normal;
+font-size: 62px;
+}
+
+.main-right__title-profession{
+color: white;
+font-weight:normal;
+font-style:normal;
+font-size: 22px;
+}
+
+
