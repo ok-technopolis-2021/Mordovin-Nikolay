@@ -1,0 +1,175 @@
+.body {
+font-family: Helvetica, sans-serif;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.body_dark{
+background-color: #444444;
+color: white;
+}
+
+.body_light{
+background-color: white;
+color: black;
+}
+
+.main_dark{
+background-color:#d3d3d3;
+border:black;
+color:black;
+}
+
+.main_light{
+background-color: #444444;
+border-color:white;
+color: white;
+}
+
+.main-right_light{
+background-color: #222222;
+color:white;
+}
+
+.main-right_dark{
+background-color: #A9A9A9;
+color:black;
+}
+
+.main{
+display: flex;
+justify-content: center;
+width: 1127px;
+height: 595px;
+border-radius: 30px;
+}
+
+.main-left{
+height:100%;
+width:380px;
+display:flex;
+justify-content:space-between;
+flex-direction: column;
+align-items: center;
+}
+
+.main-left-info{
+height:420px;
+display: flex;
+margin-top:70px;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.main-left-info__image {
+width: 180px;
+height: 180px;
+border-radius:50%;
+box-shadow: 12px 12px 0 grey;
+}
+
+.main-left-info__title {
+display:flex;
+flex-direction: column;
+align-items:center;
+}
+
+.main-left-info__title-name{
+font-weight: bold;
+font-style:normal;
+margin-top: 29px;
+text-align:center;
+font-size:38px;
+}
+
+.main-left-info__title-profession{
+font-weight:normal;
+font-style:normal;
+margin-top:8px;
+font-size: 20px;
+}
+
+.main-left-info__icons{
+display:flex;
+width:92px;
+align-items: center;
+justify-content: space-between;
+margin-top: 16px;
+}
+
+.main-left-info__icons-icon{
+width: 24px;
+height: 24px;
+border-radius:50%;
+}
+
+.main-left-info__download{
+display: flex;
+align-items: center;
+justify-content: center;
+border:3px solid;
+width: 164px;
+height: 39px;
+border-radius:40px;
+font-size: 17px;
+margin-top: 57px;
+text-decoration:none;
+}
+
+.main-left-info__download_light{
+border: 3px solid white;
+color: white;
+}
+
+.main-left-info__download_dark{
+border: 3px solid black;
+color: black;
+}
+
+.main-left__footer{
+margin-bottom:16px;
+}
+
+.main-right{
+height: 100%;
+width: 747px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.main-right__title{
+display:flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+}
+
+.main-right__title-name{
+font-weight: bold;
+font-style:normal;
+font-size: 62px;
+}
+
+.main-right__title-profession{
+font-weight:normal;
+font-style:normal;
+font-size: 22px;
+}
+
+.themeSwitchButton {
+position:absolute;
+left:5px;
+top:5px;
+border-radius:50%;
+width:30px;
+height:30px;
+}
+
+
