@@ -7,9 +7,40 @@ align-items: center;
 height: 100%;
 }
 
+.body_dark{
+background-color: #444444;
+color: white;
+}
+
+.body_light{
+background-color: white;
+color: black;
+}
+
+.main_dark{
+background-color:#d3d3d3;
+border:black;
+color:black;
+}
+
+.main_light{
+background-color: #444444;
+border-color:white;
+color: white;
+}
+
+.main-right_light{
+background-color: #222222;
+color:white;
+}
+
+.main-right_dark{
+background-color: #A9A9A9;
+color:black;
+}
+
 .main{
 display: flex;
-background-color: #444444;
 justify-content: center;
 width: 1127px;
 height: 595px;
@@ -48,7 +79,6 @@ align-items:center;
 }
 
 .main-left-info__title-name{
-color: white;
 font-weight: bold;
 font-style:normal;
 margin-top: 29px;
@@ -57,7 +87,6 @@ font-size:38px;
 }
 
 .main-left-info__title-profession{
-color: white;
 font-weight:normal;
 font-style:normal;
 margin-top:8px;
@@ -82,14 +111,23 @@ border-radius:50%;
 display: flex;
 align-items: center;
 justify-content: center;
-border:3px solid white;
-color:white;
+border:3px solid;
 width: 164px;
 height: 39px;
 border-radius:40px;
 font-size: 17px;
 margin-top: 57px;
 text-decoration:none;
+}
+
+.main-left-info__download_light{
+border: 3px solid white;
+color: white;
+}
+
+.main-left-info__download_dark{
+border: 3px solid black;
+color: black;
 }
 
 .main-left__footer{
@@ -100,7 +138,6 @@ margin-bottom:16px;
 height: 100%;
 width: 747px;
 border-radius: 30px;
-background-color: #222222;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -115,17 +152,24 @@ justify-content: center;
 }
 
 .main-right__title-name{
-color: white;
 font-weight: bold;
 font-style:normal;
 font-size: 62px;
 }
 
 .main-right__title-profession{
-color: white;
 font-weight:normal;
 font-style:normal;
 font-size: 22px;
+}
+
+.themeSwitchButton {
+position:absolute;
+left:5px;
+top:5px;
+border-radius:50%;
+width:30px;
+height:30px;
 }
 
 

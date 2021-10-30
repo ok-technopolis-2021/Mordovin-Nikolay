@@ -5,8 +5,9 @@
     <title>card</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="body">
-<div class="main">
+<body class="body body_light">
+<input class = "themeSwitchButton" type="image" src = "images/theme.jpeg"/>
+<div class="main main_light">
     <section class="main-left">
         <div class="main-left-info">
             <img class="main-left-info__image" src="images/avatar.jpg" alt="main photo">
@@ -26,7 +27,7 @@
                 <a href="https://github.com/MordovinNik" target="_blank"><img class="main-left-info__icons-icon"
                                                                               src="images/git.png" alt="git"/></a>
             </div>
-            <a href="#" target="_blank" class="main-left-info__download">
+            <a href="#" target="_blank" class="main-left-info__download main-left-info__download_light">
                 Download CV
             </a>
         </div>
@@ -34,7 +35,7 @@
             ©2020 All rights reserved.
         </footer>
     </section>
-    <section class="main-right">
+    <section class="main-right main-right_light">
         <div class="main-right__title">
             <div class="main-right__title-name">
                 Nikolay Mordovin
@@ -45,5 +46,20 @@
         </div>
     </section>
 </div>
+<script>
+document.getElementsByClassName("themeSwitchButton")[0].addEventListener('click', () => {
+    if(document.body.classList.contains("body_light")){
+       document.getElementsByClassName("main")[0].classList.replace("main_light","main_dark");
+       document.getElementsByClassName("main-left-info__download")[0].classList.replace("main-left-info__download_light","main-left-info__download_dark");
+       document.getElementsByClassName("main-right")[0].classList.replace("main-right_light","main-right_dark");
+       document.body.classList.replace("body_light","body_dark");
+    }else{
+       document.getElementsByClassName("main")[0].classList.replace("main_dark","main_light");
+       document.getElementsByClassName("main-left-info__download")[0].classList.replace("main-left-info__download_dark","main-left-info__download_light");
+       document.getElementsByClassName("main-right")[0].classList.replace("main-right_dark","main-right_light");
+       document.body.classList.replace("body_dark","body_light");
+    }
+});
+</script>
 </body>
 </html>
